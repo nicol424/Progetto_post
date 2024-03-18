@@ -1,0 +1,73 @@
+
+:root{
+    --mainTxt: #181919;
+    --navBar: #386e95;
+    --bgBody: #eaeff3d6;
+    --mainBg: #FAFAFA;
+}
+
+@font-face {
+    font-family: titoli;
+    src: url(/public/font/Royalacid.ttf);
+}
+
+@font-face {
+    font-family: corpo;
+    src: url(/public/font/Chekgu\ Oke.otf);
+}
+
+nav{
+    font-family: corpo;
+}
+
+.navCus{
+    background-color: var(--navBar);
+}
+
+.dropColor{
+    cursor: var(--navBar);
+
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.mainTxt{
+    color: var(--mainTxt);
+
+}
+.colorCus:hover{
+    background-color: var(--navBar);
+}
+
+.lightBg{
+    background-color: var(--mainBg);
+}
+
+.bodyBg{
+    background-color: var(--bgBody);
+}
+
+body{
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0;
+    background-color: var(--mainBg);
+}
+
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.titleCus{
+    font-family: titoli;
+}
+
+.bodyCus{
+    font-family: corpo;
+
+}
